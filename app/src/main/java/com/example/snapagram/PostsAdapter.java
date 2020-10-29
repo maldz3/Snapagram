@@ -44,7 +44,19 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.ViewHolder> 
         return posts.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+//    // Clean all elements of the recycler
+//    public void clear() {
+//        posts.clear();
+//        notifyDataSetChanged();
+//    }
+//
+//    // Add a list of items
+//    public void addAll(List<Post> postList) {
+//        posts.addAll(postList);
+//        notifyDataSetChanged();
+//    }
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView tvUsername;
         private ImageView ivImage;
